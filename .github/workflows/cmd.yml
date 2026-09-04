@@ -7,5 +7,6 @@ on:
      
 jobs:
   hello:
+    runs-on: ubuntu-latest
     steps:
-      runs: echo"hello bro"
+      - run: echo"hello bro"
