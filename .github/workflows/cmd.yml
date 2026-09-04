@@ -3,10 +3,11 @@ name: Test
 on:
   push:
     branches:
-     - main
-     
+      - main
+
 jobs:
   hello:
     runs-on: ubuntu-latest
+
     steps:
-      - run: echo"hello bro"
+      - run: echo "hello bro"
